@@ -230,6 +230,12 @@ p { color: var(--muted); margin: 0; }
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
+  align-items: center;
+}
+.email-inline {
+  color: var(--gold-bright);
+  font-weight: 800;
+  overflow-wrap: anywhere;
 }
 .release-panel {
   border: 1px solid var(--line);
