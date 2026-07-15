@@ -232,10 +232,10 @@ p { color: var(--muted); margin: 0; }
   gap: 14px;
   align-items: center;
 }
-.email-inline {
-  color: var(--gold-bright);
-  font-weight: 800;
-  overflow-wrap: anywhere;
+.email-action {
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
 }
 .release-panel {
   border: 1px solid var(--line);
